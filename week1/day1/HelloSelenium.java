@@ -1,5 +1,7 @@
 package week1.day1;
 
+import week1.day2.LearnMethods;
+
 public class HelloSelenium {
 
 	public static void main(String[] args) {
@@ -18,7 +20,10 @@ public class HelloSelenium {
 		System.out.println("Your mileage : "+ mileage);
 		System.out.println("Your totalCarMileage : "+ totalCarMileage);
 		
-
+		System.out.println("---------------------------------------------------------");
+		
+		LearnMethods bi=new LearnMethods();
+		System.out.println(bi.Bicycle());
 	}
 
 }

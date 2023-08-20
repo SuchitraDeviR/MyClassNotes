@@ -4,6 +4,7 @@ public class OddNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//Condition - 1
 		int i;
 		for(i=1;i<=20;i++)
 		{
@@ -20,8 +21,6 @@ public class OddNumbers {
 			System.out.println(j);
 		
 		}
-		
-		
 	}
 	
 
